@@ -16,8 +16,8 @@ import java.awt.event.WindowEvent;
 @SuppressWarnings("serial")
 public class GraphicalScore extends Frame {
 	private TennisScorer scorer = new TennisScorer();
-	private static String playerAname = "A.Murray";
-	private static String playerBname = "N.Djokovic";
+	private static String playerAname = "R.Federer";
+	private static String playerBname = "R.Nadal";
 	private static Font font = new Font("Courier", Font.BOLD, 32);
 	private Label[][] gamesLabels = new Label[2][5];
 	private Label playerAscore;
