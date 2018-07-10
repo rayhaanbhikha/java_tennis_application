@@ -14,6 +14,11 @@ public class ConsoleScore {
 		}
 	}
 
+//	public static boolean validateInput(String input){
+//	    if(input.equalsIgnoreCase("X") || input.equalsIgnoreCase("A") || input.equalsIgnoreCase("B")) return true;
+//	    return false;
+//    }
+
 	public static void commandLineInput(String s) {
 		TennisScorer ts = new TennisScorer();
 		ts.winningPoints(s);
