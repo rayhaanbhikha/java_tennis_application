@@ -31,7 +31,7 @@ public class ConsoleScore {
 				if (lastInput.equalsIgnoreCase("a")
 						|| lastInput.equalsIgnoreCase("b")) {
 					ts.winningPoints(lastInput);
-					System.out.println(ts.currentScore());
+					System.out.println("Current Score: " + ts.currentScore());
 				}
 				lastInput = br.readLine();
 			}
